@@ -1,0 +1,54 @@
+#wrap {
+    position:relative;
+}
+
+#wrap div {
+    max-width: 70%;
+    height: 200px;
+    margin:10px;
+    margin-top: 50px;
+    display: block;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 8px 16px rgb(239, 175, 116);
+ }
+ 
+#wrap div img {
+    height:200px;
+    border-radius: 2%;
+}
+
+#wrap div p {
+    min-height:200px;
+    color: azure;
+    background-color: rgb(51, 40, 40);
+    border-style:solid;
+    padding: 2%;
+    border-radius: 5px 5px 5px 5px;
+    text-align: left;
+}
+
+ #wrap div:nth-child(even) {
+    float:right;
+    clear:right;
+    border-bottom: solid;
+ }
+ 
+ #wrap div:nth-child(odd) {
+    float:left;
+    clear:left;
+ }
+
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
+
+  .footer {
+    position:unset;
+    bottom:unset;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(239, 217, 144);
+    color: white;
+    text-align: center;
+    clear: both;
+  }

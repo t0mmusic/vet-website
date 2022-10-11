@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Where Are We?</title>
+</head>
+<body>
+    <ul>
+        <div class="logo">
+            <a href="index.html">
+            <img src="imgs/logo.jpg">
+            </a>
+        </div>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="location.html">Location</a></li>
+        <div class="profile">
+            <img id="profileImage">
+        </div>
+    </ul>
+    <div class="page-content">
+        <h1>We can be found on this map:</h1>
+        <li>
+            <div class="dropdown">
+                <button class="dropbtn">What kind of Animal Lover Are you?</button>
+                <div class="dropdown-content">
+                    <a href="#dog" onclick="chooseAnimal('dog')">Dog</a>
+                    <a href="#cat" onclick="chooseAnimal('cat')">Cat</a>
+                    <a href="#both" onclick="chooseAnimal('both')">Both!</a>
+                </div>
+            </div>
+        </li>
+        <div style="width: 100%; padding:10px;"><iframe width="400px" height="400px" frameborder="0" scrolling="no" padding="50px" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Adelaide%20Australia+(Best%20Vet%20Ever)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure acres/hectares on map</a></iframe></div>
+        <div class="footer">
+            <p>Footer</p>
+        </div>
+    </div>
+</body>
+<script src="scripts/script.js"></script>
+</html>
