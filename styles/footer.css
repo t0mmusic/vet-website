@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #5fb49c;
+    color: white;
+    padding: 1%;
+    clear: both;
+    box-shadow: inset 0px 10px 10px rgba(0,0,0,0.2);
+    align-items: center;
+  }
+
+.footer h3 {
+  right: 0;
+}
+
+.groups {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2%;
+}

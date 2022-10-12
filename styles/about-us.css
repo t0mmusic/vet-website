@@ -41,14 +41,3 @@
 hr.solid {
     border-top: 3px solid #bbb;
   }
-
-  .footer {
-    position:unset;
-    bottom:unset;
-    width: 100%;
-    padding: 20px;
-    background-color: rgb(239, 217, 144);
-    color: white;
-    text-align: center;
-    clear: both;
-  }

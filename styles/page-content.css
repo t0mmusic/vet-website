@@ -1,0 +1,17 @@
+.page-content {
+    text-align: center;
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    padding-top: 150px;
+    flex-grow: 1;
+  }
+  
+
+  .page-content h1 {
+    color:#682d63;
+    text-shadow: 2px 2px 5px #151212;
+  }
+
+  .page-content a {
+    text-decoration: none;
+  }

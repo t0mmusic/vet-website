@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="openBtn" id="dogLvrsOnly">
+        <button class="openButton" onclick="openForm()"><strong>Sign up / Login</strong></button>
+    </div>
+    <div class="loginPopup">
+        <div class="formPopup" id="popupForm">
+            <form action="/action_page.php" class="formContainer">
+            <h2>Please Log in</h2>
+            <label for="email">
+                <strong>E-mail</strong>
+            </label>
+            <input type="text" id="email" placeholder="Your Email" name="email" required>
+            <label for="psw">
+                <strong>Password</strong>
+            </label>
+            <input type="password" id="psw" placeholder="Your Password" name="psw" required>
+            <button type="submit" class="btn">Log in</button>
+            <button type="button" class="btn" onclick="signUp()">No account? Create one now!</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+    </div>
+    <div class="loginPopup">
+        <div class="formPopup" id="signupForm">
+            <form action="/action_page.php" class="formContainer">
+            <h2>Create an account</h2>
+            <label for="firstName">
+                <strong>First Name</strong>
+            </label>
+            <input type="text" id="firstName" placeholder="Enter First Name" name="firstName" required>
+            <label for="Surname">
+                <strong>Surname</strong>
+            </label>
+            <input type="text" id="Surname" placeholder="Enter Surname" name="Surname" required>
+            <label for="phoneNumber">
+                <strong>Contact Phone Number</strong>
+            </label>
+            <input type="text" id="phoneNumber" placeholder="Enter Phone Number" name="phoneNumber" required>
+            <label for="email">
+                <strong>Email</strong>
+            </label>
+            <input type="text" placeholder="Enter Email Address" name="email" required>
+            <label for="suburb">
+                <strong>Suburb</strong>
+            </label>
+            <input type="text" id="suburb" placeholder="Enter Suburb" name="suburb" required>
+            <label for="postcode">
+                <strong>Postcode</strong>
+            </label>
+            <input type="text" id="postcode" placeholder="Enter Postcode" name="postcode" required>
+            <label for="petName">
+                <strong>Pet Name</strong>
+            </label>
+            <input type="text" id="petName" placeholder="Enter Pet Name" name="petName" required>
+            <label for="petBreed">
+                <strong>Pet Breed</strong>
+            </label>
+            <input type="text" id="petBreed" placeholder="Enter Pet Breed" name="petBreed" required>
+            <label for="petAge">
+                <strong>Pet Age</strong>
+            </label>
+            <input type="text" id="petAge" placeholder="Enter Pet Age" name="petAge" required>
+            <label for="petGender">
+                <strong>Pet Gender</strong>
+            </label>
+            <input type="text" id="petGender" placeholder="Enter Pet Gender" name="petGender" required>
+            <label for="psw">
+                <strong>Password</strong>
+            </label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <label for="psw">
+                <strong>Re-enter Password</strong>
+            </label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <button type="submit" class="btn">Sign Up</button>
+            <button type="button" class="btn cancel" onclick="closeSignUp()">Close</button>
+            </form>
+        </div>
+    </div>
+</body>
+<!-- <script src="../scripts/script.js"></script> -->
+</html>
