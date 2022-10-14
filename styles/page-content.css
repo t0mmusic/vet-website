@@ -5,13 +5,15 @@
     padding-top: 150px;
     flex-grow: 1;
   }
+
   
-
   .page-content h1 {
-    color:#682d63;
-    text-shadow: 2px 2px 5px #151212;
+    color:#5fb49c;
+    font-family: garamond;
+    /* text-shadow: 2px 2px 5px #151212; */
   }
-
+  
   .page-content a {
     text-decoration: none;
   }
+  /* color:#682d63; */

@@ -33,5 +33,6 @@ function chooseAnimal(input) {
         animalImg.src="imgs/cat-dog-pic.webp";
         formButton.style.display = 'flex';
     }
+    console.log("image = " + animalImg.src);
     localStorage.setItem("profilePic", input);
 }
